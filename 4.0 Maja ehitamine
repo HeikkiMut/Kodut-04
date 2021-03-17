@@ -1,0 +1,144 @@
+import turtle
+from turtle import *
+
+speed(2)
+
+#Muru
+bgcolor("green")
+
+#taevas
+penup()
+goto(-500,-100)
+pendown()
+color("deepskyblue")
+begin_fill()
+
+for i in range(2):
+    fd(975)
+    lt(90)
+    fd(505)
+    lt(90)
+end_fill()
+
+#päike
+penup()
+goto(-320,225)
+pendown()
+color("yellow")
+begin_fill()
+circle(35)
+end_fill()
+
+#ehitamine
+penup()
+goto(-100,-200)
+pendown()
+color("khaki")
+begin_fill()
+
+for i in range(2):
+    fd(200)
+    lt(90)
+    fd(170)
+    lt(90)
+end_fill()
+
+#katus
+penup()
+goto(-115,-30)
+pendown()
+color("brown")
+begin_fill()
+for i in range(3):
+    fd(225)
+    lt(120)
+end_fill()
+
+#korsten
+penup()
+goto(42,90)
+pendown()
+color("gray")
+begin_fill()
+rt(60)
+fd(60)
+lt(150)
+fd(110)
+lt(90)
+fd(29)
+lt(90)
+fd(63)
+end_fill()
+
+#aken
+penup()
+goto(25,-80)
+pendown()
+color("black","white")
+begin_fill()
+for i in range(4):
+    fd(50)
+    lt(90)
+end_fill()
+
+#akna poolitamine
+penup()
+goto(50,-81)
+pendown()
+#rt(90)
+color("black")
+fd(50)
+
+#uks
+penup()
+goto(-10,-80)
+pendown()
+rt(90)
+color("saddlebrown")
+begin_fill()
+for i in range(2):
+    fd(50)
+    lt(90)
+    fd(90)
+    lt(90)
+end_fill()
+
+#trepp
+penup()
+goto(20,-187)
+pendown()
+rt(90)
+color("gray")
+begin_fill()
+for i in range(2):
+    fd(15)
+    lt(90)
+    fd(90)
+    lt(90)
+end_fill()
+
+penup()
+goto(-10,-200)
+pendown()
+rt(90)
+color("gray")
+begin_fill()
+for i in range(2):
+    fd(90)
+    lt(90)
+    fd(15)
+    lt(90)
+end_fill()
+
+#ukse käepide
+penup()
+goto(-25,-125)
+pendown()
+rt(90)
+color("black")
+begin_fill()
+circle(5)
+end_fill()
+
+hideturtle()
+exitonclick()
